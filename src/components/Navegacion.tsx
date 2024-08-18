@@ -23,7 +23,7 @@ export default function Navegacion() {
       <nav className="fixed w-full bg-slate-800 z-50">
         <div className="h-10vh flex justify-between z-50 text-white lg:py-5 px-10 py-4 flex-1 w-full">
           <div className="flex items-center w-1/4" >
-            <span className="text-3xl font-bold">Logo</span>
+            <span className="text-3xl font-bold">PORTAFOLIO</span>
           </div>
 
           {/* Menu modo Desktop */}

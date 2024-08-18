@@ -34,12 +34,6 @@ export default function MenuNav({menuMobile, setMenuMobile} : MenuNavProps) {
         mobile={menuMobile}
         setMobile={setMenuMobile}
         />
-        <LinksNav
-        direccion="Contacto"
-        seccion="Contacto"
-        mobile={menuMobile}
-        setMobile={setMenuMobile}
-        />
 
   </ul>
   )
