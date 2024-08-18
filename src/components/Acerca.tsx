@@ -38,7 +38,7 @@ export default function Acerca() {
           <div className="flex mt-8 gap-2">
             <div className="flex items-center justify-center">
               <div className="flex space-x-2">
-                <a href="./CV_DANIEL-PONCE.pdf" target="_blank" className="neno-button shadow-xl font-bold  border-2 text-white hover:bg-cyan-900 rounded-lg py-4 px-8 uppercase relative overflow-hidden">Descargar CV</a>
+                <a href="./CV_PONCE-MONTIEL.pdf" target="_blank" className="neno-button shadow-xl font-bold  border-2 text-white hover:bg-cyan-900 rounded-lg py-4 px-8 uppercase relative overflow-hidden">Descargar CV</a>
               </div>
             </div>
           </div>
