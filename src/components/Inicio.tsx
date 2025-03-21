@@ -53,7 +53,7 @@ export default function Inicio() {
           </div>
         </div>
 
-        <img src='./00_Foto_Perfil.png' alt="" className="foto-sombra w-48 h md:w-1/4" />
+        <img src='./00_Foto_Perfil-2.png' alt="" className="img-soft-edges foto-sombra w-48 h md:w-1/4" />
       </div>
     </section>
   )

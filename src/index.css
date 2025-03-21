@@ -23,7 +23,7 @@
 }
 
 .foto-sombra{
-    filter: drop-shadow(0 0 20px rgb(0,0,0,0.8));
+    filter: drop-shadow(0 0 10px rgb(0,0,0,0.9));
     mask-image: linear-gradient(
         black 80%,
         transparent
@@ -45,3 +45,4 @@
 .skills-effect:hover{
     filter: drop-shadow(0 0 35px rgb(208, 218, 253));
 }
+

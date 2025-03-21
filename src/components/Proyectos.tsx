@@ -15,7 +15,7 @@ export default function Proyectos() {
 
   return (
     <section id="Proyectos" className="min-h-screen flex flex-col items-center justify-center pt-20 sm:text-ellipsis">
-        <h1 data-aos="fade-right" className="text-5xl font-semibold leading-normal uppercase text-[#A8B2D1]">Proyectos</h1>
+        <h1 data-aos="fade-right" className="text-4xl font-semibold leading-normal uppercase text-[#A8B2D1]">Proyectos</h1>
         <div data-aos="zoom-in" className="sm:w-3/4 m-auto w-full">
 
             <Swiper
@@ -25,7 +25,7 @@ export default function Proyectos() {
                     spaceBetween: 20 
                     },
                     769: {
-                        slidesPerView: 2,
+                        slidesPerView: 3,
                         spaceBetween: 20
                     },
                     1024: {
@@ -40,13 +40,13 @@ export default function Proyectos() {
                 navigation={true}
                 slidesPerView={'auto'}
                 coverflowEffect={{
-                    rotate: 50,
+                    rotate: 20,
                     stretch: 0,
-                    depth: 100,
+                    depth: 150,
                     modifier: 1,
                     slideShadows: true,
                 }}
-                pagination={true}
+                pagination={false}
                 modules={[EffectCoverflow, Pagination, Navigation]}
                 className="mx-5 p-5"
                 >
