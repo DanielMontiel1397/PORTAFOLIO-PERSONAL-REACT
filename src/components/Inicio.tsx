@@ -45,7 +45,7 @@ export default function Inicio() {
                 <a href="https://www.facebook.com/danelponce/" target="_blank" className="text-cyan-400 hover:text-cyan-200 rounded-full glow p-2">
                   <AiFillFacebook className="text-3xl"/>
                 </a>
-                <a href="https://www.instagram.com/daniel_ponce_montiel/" target="_blank" className="text-cyan-400 hover:text-cyan-200 rounded-full glow p-2">
+                <a href="https://www.instagram.com/daniel.ponce1397/" target="_blank" className="text-cyan-400 hover:text-cyan-200 rounded-full glow p-2">
                   <AiFillInstagram className="text-3xl"/>
                 </a>
               </div>
