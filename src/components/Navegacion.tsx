@@ -21,13 +21,13 @@ export default function Navegacion() {
 
     return(
       <nav className="fixed w-full bg-slate-800 z-50">
-        <div className="h-10vh flex justify-between z-50 text-white lg:py-5 px-10 py-4 flex-1 w-full">
-          <div className="flex items-center w-1/4" >
-            <span className="text-3xl font-bold">PORTAFOLIO</span>
+        <div className="h-10vh flex justify-around z-50 text-white lg:py-5 px-10 py-4 flex-1 w-full">
+          <div className="flex items-center" >
+            <span className="text-3xl font-bold">Daniel Montiel</span>
           </div>
 
           {/* Menu modo Desktop */}
-          <div className="md:flex hidden w-3/4 items-center font-normal justify-end">
+          <div className="md:flex hidden items-center font-normal justify-end">
               <MenuNav
                 menuMobile={menuMobile}
                 setMenuMobile={setMenuMobile}

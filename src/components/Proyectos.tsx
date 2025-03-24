@@ -14,23 +14,23 @@ import ProyectoRealizado from "./ProyectoRealizado";
 export default function Proyectos() {
 
   return (
-    <section id="Proyectos" className="min-h-screen flex flex-col items-center justify-center pt-20 sm:text-ellipsis">
+    <section id="Proyectos" className="min-h-screen flex flex-col items-center justify-center pt-20 sm:text-ellipsis ">
         <h1 data-aos="fade-right" className="text-4xl font-semibold leading-normal uppercase text-[#A8B2D1]">Proyectos</h1>
-        <div data-aos="zoom-in" className="sm:w-3/4 m-auto w-full">
+        <div data-aos="zoom-in" className="sm:w-4/5 w-full">
 
             <Swiper
                 breakpoints = {{
                     320: {
                     slidesPerView: 1,
-                    spaceBetween: 20 
+                    spaceBetween: 30 
                     },
                     769: {
                         slidesPerView: 3,
-                        spaceBetween: 20
+                        spaceBetween: 40
                     },
                     1024: {
                         slidesPerView: 3,
-                        spaceBetween: 20
+                        spaceBetween: 60
                     }
                 }}
                 loop={true}

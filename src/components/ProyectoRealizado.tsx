@@ -15,7 +15,7 @@ export default function ProyectoRealizado({proyecto} : ProyectoProps) {
     <>
     <div className="transition-all rounded-xl relative border-cyan-400 b_glow cursor-pointer lg:">
         <img src={`./proyectos/${proyecto.imagen}`} alt="" className="object-cover  rounded-xl border-2 w-full opacity-30 md:h-[400px] lg:h-[400px] xl:h-[600px]"/>
-        <div className=" absolute top-0 left-0 w-full h-full flex flex-col justify-around items-center opacity-1 p-5 lg">
+        <div className=" absolute top-0 left-0 w-full h-full flex flex-col justify-around items-center p-5 lg">
           <h1 className="text-xl font-bold text-white uppercase ">{proyecto.nombre}</h1>
           <p className="font-semibold text-white">Tecnologias: <span className="font-normal">{proyecto.tecnologias}</span></p>
           

@@ -32,7 +32,7 @@ export default function Inicio() {
 
 
           <span className="text-[#A8B2D1] text-3xl sm:text-4xl md:text-5xl font-semibold mb-8 leading-normal uppercase">Mi Portafolio</span>
-          <p className="text-justify">En este portafolio presento algunos de mis proyectos que reflejan mi enfoque en el desarrollo web. En cada proyecto se aspira a demostrar habilidad para combinar funcionalidad y diseño. Usando distintas herramientas priorizando la accesibilidad para los usuarios..</p>
+          <p className="text-justify">Mi nombre es Sostenes Daniel Ponce Montiel, en este portafolio te quiero presentar información sobre mi, conocimientos, experiencias, proyectos y gustos, para que de esta manera me conozcas un poco más.</p>
           <div className="flex mt-8 gap-2">
             <div className="flex items-center justify-center">
               <div className="flex space-x-5">
